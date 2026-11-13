@@ -1,0 +1,66 @@
+/* rs-theme-name: MintChocolate */
+/* rs-theme-is-dark: TRUE */
+
+/* 1. Main Editor Background & Default Text */
+.ace_editor, .ace_editor_theme {
+    background-color: #12181b;  /* Dark Background */
+    color: #e0e6ed;             /* Default text color */
+}
+
+/* 2. Line Number Gutter */
+.ace_gutter {
+    background-color: #0d1117; 
+    color: #485460;
+}
+
+/* 3. Active Line & Selection Highlights */ 
+.ace_marker-layer .ace_active-line {
+    background: linear-gradient(90deg, rgba(46, 204, 113, 0.15), rgba (52, 152, 219, 0.15)) !important;
+}
+
+.ace_marker-layer .ace_selection {
+    background: linear-gradient(135deg, rgba(26, 188, 156, 0.4), rgba(9, 132, 227, 0.4)) !important;
+}
+
+/* 4. Spectrum Parentheses & Brackets */
+.ace_paren_color_0 { color: #1abc9c; } /* Turquoise */
+.ace_paren_color_1 { color: #00cec9; } /* Cyan */
+.ace_paren_color_2 { color: #7dd3fc; } /* Ice Frost Blue */
+.ace_paren_color_3 { color: #5bb9d8; } /* Light Blue */
+.ace_paren_color_4 { color: #00BFFF; } /* Deep Sky Blue */
+.ace_paren_color_5 { color: #0984e3; } /* Dodger Blue */
+
+/* 5. Core Code Syntax */
+.ace_keyword { color: #5bb9d8; font-weight: bold; }  /* Keywords (if, else, function) */
+.ace_string  { color: #91e7d5; }                     /* Strings ("hello") */
+.ace_comment { color: #A3E4D7; font-style: italic; } /* Comments */
+.ace_function{ color: #00cec9; }                     /* Function names */
+.ace_constant.ace_numeric { color: #7dd3fc; }        /* Numbers */
+.ace_constant.ace_language { color: #00BFFF; }       /* Constants (like TRUE, FALSE, NULL) */
+.ace_keyword.ace_operator { color: #1abc9c; }        /* Operators */
+.ace_identifier { color: #e0e6ed; }                  /* Regular variables and text */
+
+/* 6. Errors $ Invalid Code */
+.ace_error, -ace_invalid {
+    color: #ff6b6b !important;
+    background-color: rgba(255, 107, 107, 0.15);
+}
+.xtermColor1, .xtermColor9, .terminal .ansi-red-fg, .terminal .ansi-bright-red-fg {
+    color: ff6b6b !important;
+}
+.ace_console, 
+.rstudio-themes-dark .ace_console, 
+.console_output, 
+.console_message, 
+.ace_support.ace_function {
+    color: #e0e6ed !important; 
+}
+.ace_warning, .ace_info {
+    color: #f39c12 !important;
+}
+.ace_console, 
+.rstudio-themes-dark .ace_console, 
+.console_output, 
+.console_message {
+    color: #f39c12 !important;
+}
