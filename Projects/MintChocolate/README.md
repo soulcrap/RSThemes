@@ -11,4 +11,3 @@ To use this theme,
 
 Enjoy!
 
-<img width="709" height="1118" alt="Screenshot 2026-11-13 201820" src="https://github.com/user-attachments/assets/cdf9c5ea-a3ea-4ed3-98ce-af9e926255db" />
