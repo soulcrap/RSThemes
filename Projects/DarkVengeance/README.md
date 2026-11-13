@@ -11,4 +11,4 @@ To use this theme,
 
 Enjoy!
 
-<img width="726" height="1126" alt="image" src="https://github.com/user-attachments/assets/751e97de-d8ec-4776-a6c2-78663f258140" />
+<img width="486" height="754" alt="image" src="https://github.com/user-attachments/assets/751e97de-d8ec-4776-a6c2-78663f258140" />
